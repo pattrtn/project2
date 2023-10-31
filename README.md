@@ -30,41 +30,44 @@ Understand the expected costs of house owner and whether they are making a sound
 
 ---
 #### Modelling
-*Model 1 : 
-- Features : bedrooms + baths + floor area + nearby + stations / shops / supermarkets
-- Linear score : 0.4095640752071057
-- Linear RMSE : 1675002.699480999
-- Ridge score : 0.40956337708856205
-- Ridge RMSE : 1675003.6897240132
-- Lasso score : 0.40641152482097187
-- Lasso RMSE : 1679468.4681415262
+Model 1 : 
+- Features : bedrooms + baths + floor area + nearby stations / shops / supermarkets
+- Linear score : 0.40956
+- Linear RMSE : 1675002.69
+- Ridge score : 0.40956
+- Ridge RMSE : 1675003.68
+- Lasso score : 0.40641
+- Lasso RMSE : 1679468.46
 
-*Model 2 :
+Model 2 :
 - Features : Model 1 + property type + province
-- Linear score :
-- Linear RMSE :
-- Ridge score :
-- Ridge RMSE :
-- Lasso score :
-- Lasso RMSE :
+- Linear score : 0.49413
+- Linear RMSE : 1550404.40
+- Ridge score : 0.49413
+- Ridge RMSE : 1550408.49
+- Lasso score : 0.48068
+- Lasso RMSE : 1570887.61
 
-*Model 3 : 
+Model 3 : 
 - Features : Model 1 + property type + District
-- Linear score :
-- Linear RMSE :
-- Ridge score :
-- Ridge RMSE :
-- Lasso score :
-- Lasso RMSE :
+- Linear score : 0.62237
+- Linear RMSE : 1339545.66
+- Ridge score : 0.62218
+- Ridge RMSE : 1339883.93
+- Lasso score : 0.47939
+- Lasso RMSE : 1572834.70
 
-*Model 4 : 
+Model 4 : SELECTED FOR BEST MODEL
 - Features : Model 3 + land area + longitude + floor level + year built
-- Linear score :
-- Linear RMSE :
-- Ridge score :
-- Ridge RMSE :
-- Lasso score :
-- Lasso RMSE :
+- Linear score : 0.63301
+- Linear RMSE : 1320539.22
+- Linear Cross val score(mean) : 0.62544
+- Ridge score : 0.63295
+- Ridge RMSE : 1320660.29
+- Ridge Cross val score(mean) : 0.62546
+- Lasso score : 1645355.5710681996
+- Lasso RMSE : 104789.77
+- Lasso Cross val score(mean) : 0.42421
 
 ## Chose Model 4 features with Ridge score for the best prediction
 ---
