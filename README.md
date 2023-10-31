@@ -74,9 +74,7 @@ Model 4 : SELECTED FOR BEST MODEL
 
 #### Conclusions
 * House prices can vary significantly depending on various factors like features and surrounding of the house, including location, property size and house condition but house that more convenience, price will be more expensive like more rooms and use of space or near station , shop and downtown.
-*After considering all the above factors the model predicted value may not much accurate, due to incomplete Data , outlier and model complexity such as too many features or parameters.
-
-
+* After considering all the above factors the model predicted value may not much accurate, due to incomplete Data , outlier and model complexity such as too many features or parameters.
 
 ---
 
