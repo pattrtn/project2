@@ -69,7 +69,7 @@ Model 4 : SELECTED FOR BEST MODEL
 - Lasso RMSE : 104789.77
 - Lasso Cross val score(mean) : 0.42421
 
-## Chose Model 4 features with Ridge score for the best prediction
+#### Chose Model 4 features with Ridge score for the best prediction
 ---
 
 #### Conclusions
