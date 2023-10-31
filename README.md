@@ -29,6 +29,45 @@ Understand the expected costs of house owner and whether they are making a sound
   - Get dummy for categories columns
 
 ---
+#### Modelling
+*Model 1 : 
+- Features : bedrooms + baths + floor area + nearby + stations / shops / supermarkets
+- Linear score : 0.4095640752071057
+- Linear RMSE : 1675002.699480999
+- Ridge score : 0.40956337708856205
+- Ridge RMSE : 1675003.6897240132
+- Lasso score : 0.40641152482097187
+- Lasso RMSE : 1679468.4681415262
+
+*Model 2 :
+- Features : Model 1 + property type + province
+- Linear score :
+- Linear RMSE :
+- Ridge score :
+- Ridge RMSE :
+- Lasso score :
+- Lasso RMSE :
+
+*Model 3 : 
+- Features : Model 1 + property type + District
+- Linear score :
+- Linear RMSE :
+- Ridge score :
+- Ridge RMSE :
+- Lasso score :
+- Lasso RMSE :
+
+*Model 4 : 
+- Features : Model 3 + land area + longitude + floor level + year built
+- Linear score :
+- Linear RMSE :
+- Ridge score :
+- Ridge RMSE :
+- Lasso score :
+- Lasso RMSE :
+
+## Chose Model 4 features with Ridge score for the best prediction
+---
 
 #### Conclusions
 * House prices can vary significantly depending on various factors like features and surrounding of the house, including location, property size and house condition but house that more convenience, price will be more expensive like more rooms and use of space or near station , shop and downtown.
